@@ -7,6 +7,9 @@
 // note: this app has esm package included in package.json
 
 //Import Classes
+
+console.log("-- This is a ts thing..")
+
 import {Car, Truck} from './Classes/Car'
 import PersonClass from './Classes/Person'
 import CarHandler from './Classes/CarHandler'
@@ -21,8 +24,7 @@ var auto2 = new Car()
 auto2.brand = "Volvo"
 auto2.model = "740 GL"
 let randomObject = {dude:"Heikki",profession:"24h enterteiner"}
-console.log("\n car stuff \n")
-console.log("\n car stuff \n")
+console.log("\n car stuff with typeScript \n")
 console.log("This object is of a Car Class : "+CarChecker(auto2))
 console.log("This object is of a Car Class : "+CarChecker(auto1))
 console.log("This object is of a Car Class : "+CarChecker(randomObject))

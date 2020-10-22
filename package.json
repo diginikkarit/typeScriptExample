@@ -4,7 +4,7 @@
   "description": "testing classes",
   "main": "index.js",
   "scripts": {
-    "test": "node -r esm index.js"
+    "type": "node ./out/index.js"
   },
   "author": "HM",
   "license": "MIT",
